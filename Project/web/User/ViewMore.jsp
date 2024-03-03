@@ -139,7 +139,7 @@
                         </tr>   
                         <tr>
                             <td colspan="2" align="center">
-                                <a href="BookPrasadam.jsp?pid=<%=rwP.getString("prasadam_id")%>">Book</a>
+                                <a href="BookPrasadam.jsp?pid=<%=rwP.getString("prasadam_id")%>&amount=<%=rwP.getString("prasadam_amount")%>">Book</a>
                             </td>
                         </tr>   
                     </table>
@@ -197,7 +197,7 @@
                         </tr>  
                         <tr>
                             <td colspan="2" align="center">
-                                <a href="BookQueue.jsp?qid=<%=rwQ.getString("queue_id")%>">Book</a>
+                                <a href="BookQueue.jsp?qid=<%=rwQ.getString("queue_id")%>&amount=<%=rwQ.getString("queue_amount")%>">Book</a>
                             </td>
                         </tr>   
                     </table>
@@ -263,7 +263,7 @@
                         </tr>  
                         <tr>
                             <td colspan="2" align="center">
-                                <a href="BookVazhipad.jsp?vid=<%=rwV.getString("vazhipad_id")%>">Book</a>
+                                <a href="BookVazhipad.jsp?vid=<%=rwV.getString("vazhipad_id")%>&amount=<%=rwV.getString("vazhipad_amount")%>">Book</a>
                             </td>
                         </tr>   
                     </table>

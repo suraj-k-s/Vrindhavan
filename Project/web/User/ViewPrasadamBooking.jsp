@@ -16,20 +16,23 @@
     <body>
 
         <%
-            String sel = "select * from tbl_templechart where templ_id='" + request.getParameter("tid") + "'";
+            String sel = "select * from tbl_prasadambooking pb inner join tbl_prasadam p on p.prasadam_id=pb.prasadam_id inner join tbl_temple t on t.temple_id=p.temple_id  where user_id='" + session.getAttribute("uid") + "'";
             ResultSet rs = conn.selectCommand(sel);
             ResultSet rs1 = conn.selectCommand(sel);
             if (rs1.next()) {
 
         %>
-        <h2>View Temple Chart</h2>
+        <h2>View Prasadam Booking</h2>
         <br>
         <table border="1">
             <tr>
                 <th>Sl.No</th>
-                <th>Name</th>
                 <th>Date</th>
-                <th>Details</th>
+                <th>Time</th>
+                <th>Temple</th>
+                <th>Prasadham</th>
+                <th>Qty</th>
+                <th>Amount</th>
             </tr>
             <%              int i = 0;
                 while (rs.next()) {
@@ -37,9 +40,12 @@
             %>
             <tr>
                 <td><%=i%></td>
-                <td><%=rs.getString("tchart_name")%></td>
-                <td><%=rs.getString("tchart_date")%></td>
-                <td><%=rs.getString("tchart_description")%></td>    
+                <td><%=rs.getString("pbooking_date")%></td>
+                <td><%=rs.getString("pbooking_time")%></td>
+                <td><%=rs.getString("temple_name")%></td>      
+                <td><%=rs.getString("prasadam_name")%></td>
+                <td><%=rs.getString("pbooking_unit")%></td>
+                <td><%=rs.getString("pbooking_amount")%></td>
             </tr>
             <%
                 }

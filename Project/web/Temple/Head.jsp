@@ -40,19 +40,35 @@
 
                                 <ul class="site-menu js-clone-nav d-none d-lg-block">
                                     <li class="active">
-                                        <a href="../index.html">Home</a>
+                                        <a href="HomePage.jsp">Home</a>
                                     </li>
-                                    <!--                                    <li class="has-children">
-                                                                            <a href="#">Dropdown</a>
-                                                                            <ul class="dropdown arrow-top">
-                                                                                <li><a href="#">Menu One</a></li>
-                                                                                <li><a href="#">Menu Two</a></li>
-                                                                                <li><a href="#">Menu Three</a></li>
-                                                                            </ul>
-                                                                        </li>-->
-                                    <li><a href="TempleRegistration.jsp">Temple</a></li>
-                                    <li><a href="UserRegistration.jsp">User</a></li>
-                                    <li><a href="Login.jsp">Login</a></li>
+                                    <li class="has-children">
+                                        <a href="#">Profile</a>
+                                        <ul class="dropdown arrow-top">
+                                            <li><a href="MyProfile.jsp">My Profile</a></li>
+                                            <li><a href="EditProfile.jsp">Edit Profile</a></li>
+                                            <li><a href="ChangePassword.jsp">Change Password</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-children">
+                                        <a href="#">Details</a>
+                                        <ul class="dropdown arrow-top">
+                                            <li><a href="PrasadamDetails.jsp">Prasadamdetails</a></li>
+                                            <li><a href="QueueDetails.jsp">QueueDetails</a></li>
+                                            <li><a href="VazhipadDetails.jsp">VazhipadDetails</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-children">
+                                        <a href="#">Bookings</a>
+                                        <ul class="dropdown arrow-top">
+                                            <li><a href="ViewPrasadamBooking.jsp">Prasadam</a></li>
+                                            <li><a href="ViewQueueBooking.jsp">Queue</a></li>
+                                            <li><a href="ViewVazhipadBooking.jsp">Vazhipad</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="AddChart.jsp">Add Chart</a></li>
+                                    <li><a href="StaffRegistration.jsp">StaffRegistration</a></li>
+                                    <li><a href="../Guest/Login.jsp">Logout</a></li>
                                 </ul>
                             </nav>
 

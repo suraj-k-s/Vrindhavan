@@ -22,7 +22,7 @@
             .btn {
                 background-color: null ;
                 border: none;
-                color: white;
+                color: black;
                 padding: 16px 32px;
                 text-align: center;
                 font-size: 16px;
@@ -91,13 +91,13 @@
                         </td>
                     </tr> 
                 </table>
-
-                <hr>
-                <br>
-                <div id="search">
-
-                </div>
             </form>
+            <hr>
+            <br>
+            <div id="search">
+
+            </div>
+
         </div>
     </body>
     <%@include file="Foot.jsp" %>

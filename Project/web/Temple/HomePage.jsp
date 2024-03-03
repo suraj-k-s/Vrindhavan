@@ -5,15 +5,15 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,700,900"> 
-        <link rel="stylesheet" href="Assets/Template/main/fonts/icomoon/style.css">
-        <link rel="stylesheet" href="Assets/Template/main/css/bootstrap.min.css">
-        <link rel="stylesheet" href="Assets/Template/main/css/magnific-popup.css">
-        <link rel="stylesheet" href="Assets/Template/main/css/jquery-ui.css">
-        <link rel="stylesheet" href="Assets/Template/main/css/owl.carousel.min.css">
-        <link rel="stylesheet" href="Assets/Template/main/css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="../Assets/Template/main/fonts/icomoon/style.css">
+        <link rel="stylesheet" href="../Assets/Template/main/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../Assets/Template/main/css/magnific-popup.css">
+        <link rel="stylesheet" href="../Assets/Template/main/css/jquery-ui.css">
+        <link rel="stylesheet" href="../Assets/Template/main/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="../Assets/Template/main/css/owl.theme.default.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/mediaelementplayer.min.css">
-        <link rel="stylesheet" href="Assets/Template/main/css/aos.css">
-        <link rel="stylesheet" href="Assets/Template/main/css/style.css">
+        <link rel="stylesheet" href="../Assets/Template/main/css/aos.css">
+        <link rel="stylesheet" href="../Assets/Template/main/css/style.css">
 
     </head>
     <body>
@@ -49,10 +49,25 @@
                                             <li><a href="ChangePassword.jsp">Change Password</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="PrasadamDetails.jsp">Prasadamdetails</a></li>
-                                    <li><a href="QueueDetails.jsp">QueueDetails</a></li>
+                                    <li class="has-children">
+                                        <a href="#">Details</a>
+                                        <ul class="dropdown arrow-top">
+                                            <li><a href="PrasadamDetails.jsp">Prasadamdetails</a></li>
+                                            <li><a href="QueueDetails.jsp">QueueDetails</a></li>
+                                            <li><a href="VazhipadDetails.jsp">VazhipadDetails</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-children">
+                                        <a href="#">Bookings</a>
+                                        <ul class="dropdown arrow-top">
+                                            <li><a href="ViewPrasadamBooking.jsp">Prasadam</a></li>
+                                            <li><a href="ViewQueueBooking.jsp">Queue</a></li>
+                                            <li><a href="ViewVazhipadBooking.jsp">Vazhipad</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="AddChart.jsp">Add Chart</a></li>
                                     <li><a href="StaffRegistration.jsp">StaffRegistration</a></li>
-                                    <li><a href="VazhipadDetails.jsp">VazhipadDetails</a></li>
+                                    <li><a href="../Guest/Login.jsp">Logout</a></li>
                                 </ul>
                             </nav>
 
@@ -74,7 +89,7 @@
                         <p>Join with us! Login or Register. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, ex!</p>
                     </div>
                     <div class="col-lg-8">
-                        <img src="Assets/Template/main/images/1x/asset-1.jpg" alt="Image" class="img-fluid">    
+                        <img src="../Assets/Template/main/images/1x/asset-1.jpg" alt="Image" class="img-fluid">    
                     </div>
                 </div>
             </div>
@@ -98,18 +113,18 @@
             </footer>
         </div>
 
-        <script src="Assets/Template/main/js/jquery-3.3.1.min.js"></script>
-        <script src="Assets/Template/main/js/jquery-migrate-3.0.1.min.js"></script>
-        <script src="Assets/Template/main/js/jquery-ui.js"></script>
-        <script src="Assets/Template/main/js/popper.min.js"></script>
-        <script src="Assets/Template/main/js/bootstrap.min.js"></script>
-        <script src="Assets/Template/main/js/owl.carousel.min.js"></script>
-        <script src="Assets/Template/main/js/jquery.stellar.min.js"></script>
-        <script src="Assets/Template/main/js/jquery.countdown.min.js"></script>
-        <script src="Assets/Template/main/js/jquery.magnific-popup.min.js"></script>
-        <script src="Assets/Template/main/js/aos.js"></script>
+        <script src="../Assets/Template/main/js/jquery-3.3.1.min.js"></script>
+        <script src="../Assets/Template/main/js/jquery-migrate-3.0.1.min.js"></script>
+        <script src="../Assets/Template/main/js/jquery-ui.js"></script>
+        <script src="../Assets/Template/main/js/popper.min.js"></script>
+        <script src="../Assets/Template/main/js/bootstrap.min.js"></script>
+        <script src="../Assets/Template/main/js/owl.carousel.min.js"></script>
+        <script src="../Assets/Template/main/js/jquery.stellar.min.js"></script>
+        <script src="../Assets/Template/main/js/jquery.countdown.min.js"></script>
+        <script src="../Assets/Template/main/js/jquery.magnific-popup.min.js"></script>
+        <script src="../Assets/Template/main/js/aos.js"></script>
 
-        <script src="Assets/Template/main/js/mediaelement-and-player.min.js"></script>
+        <script src="../Assets/Template/main/js/mediaelement-and-player.min.js"></script>
 
         <script>
                                     document.addEventListener('DOMContentLoaded', function() {
@@ -131,7 +146,7 @@
         </script>
 
 
-        <script src="Assets/Template/main/js/main.js"></script>
+        <script src="../Assets/Template/main/js/main.js"></script>
 
     </body>
 </html>

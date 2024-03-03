@@ -24,7 +24,7 @@
                 Contact: <%=rw.getString("temple_contact")%><br>
                 Address: <%=rw.getString("temple_address")%><br>
                 <br>
-                <button class="btn"> <a href="ViewMore.jsp?tid=<%=rw.getString("temple_id")%>">View More</a></button>
+                <button class="btn" onclick="window.location='ViewMore.jsp?tid=<%=rw.getString("temple_id")%>'"> View More</button>
             </p>
         </td>
         <%
